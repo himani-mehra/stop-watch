@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d1e1f0; /* Light blue background color */
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 64px; /* Increased font size for the timer */
+    font-weight: bold;
+    padding: 20px;
+    background-color: #3498db; /* Blue color for the stopwatch container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.stopwatch span {
+    font-size: 80px; /* Increased font size for the timer numbers */
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.stopwatch button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    background-color: #2980b9; /* Blue color for the buttons */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.stopwatch button:hover {
+    background-color: #1c6fa6; /* Darker shade of blue on hover */
+}
